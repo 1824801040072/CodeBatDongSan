@@ -1,0 +1,4 @@
+jQuery(document).ready(function(){jQuery('#menu').slicknav({label:'CHỌN DANH MỤC',});jQuery('.nano-pane').show();jQuery('.left').find('li:has(ul)').addClass('parent');var owl=jQuery(".owl-carousel");owl.owlCarousel({autoPlay:false,items:5,itemsDesktop:[1000,5],itemsDesktopSmall:[900,3],itemsTablet:[600,2],itemsMobile:false});jQuery(".next").click(function(){owl.trigger('owl.next');})
+jQuery(".prev").click(function(){owl.trigger('owl.prev');})
+jQuery(".play").click(function(){owl.trigger('owl.play',1000);})
+jQuery(".stop").click(function(){owl.trigger('owl.stop');});if(!!jQuery('.sticky_home').offset()){var stickyTop=jQuery('.sticky_home').offset().top;var stickwidth=jQuery('.sticky_home').width();jQuery(window).scroll(function(){var windowTop=jQuery(window).scrollTop();if(stickyTop<windowTop){jQuery('.sticky_home').css({position:'fixed',top:0,width:stickwidth,'z-index':'9999'});}else{jQuery('.sticky_home').css('position','relative');}});}});

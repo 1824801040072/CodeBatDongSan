@@ -1,0 +1,169 @@
+/*
+Theme Name: vpwtheme
+Theme URI: http://giacongseo.vn
+Author: https://www.facebook.com/Tung.teen.9x
+Author URI: http://giacongseo.vn
+Description: Description
+Version: 1.0.0
+Text Domain: http://giacongseo.vn
+Email : Lovewinter125@gmail.com
+Tags:vpwtheme
+
+--------------------------------------------------------------*/
+.thongtintheme{
+    position: absolute;
+    top: 6px;
+    right: 20px;
+    overflow: hidden;
+    left: auto;
+    color: #fff;
+    padding-top: 30px;
+    text-align: left;
+    font-weight: bold;
+}
+img{
+    max-width: 100%
+}
+
+.login h1 a{
+    background-image: none,url(images/logovpw.png) !important;
+    width: 252px !important;
+    background-size: 100%;
+    margin: auto !important;
+height: 50px;
+}
+
+#redux-header{
+    display: none;
+}
+body{
+background: url(images/geometry2.8b9eb18d.png)!important;
+}
+#login{
+    padding: 30px 30px;
+    float: none;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.2);
+    display: block;
+    margin-top: 50px
+}
+.login form{
+    box-shadow: none
+}
+#login{
+}
+.login form .input{
+    height: 40px;
+    border: 1px solid #ebebeb;
+    padding: 0 20px;
+    width: 100%;
+    border-radius: 5px;
+    color: #656565;
+    float: none;
+    font-size: 13px;
+    margin: 10px 0px;
+}
+.login label {
+    color: #4f4f4f;
+    font-size: 15px;
+}
+.wp-core-ui #login .button-primary{
+    margin: 0;
+    padding: 15px 0 !important;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    width: 140px;
+    font-size: 14px;
+    line-height: 5px !important;
+    height: 40px !important;
+    background: #009FE3;
+    box-shadow: none;
+    text-shadow: none;
+}
+.login form {
+    padding: 30px 0px;
+    border-bottom: 1px solid #eaeaea;
+}
+#adminmenuback{
+    background-color: #293949;
+}
+#adminmenu div.wp-menu-image:before {
+color: #8f939e;
+}
+#adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap{
+    background-color: #293949;  
+    width: 180px  
+}
+#adminmenu div.wp-menu-image{
+    font-size: 15px;
+    margin-right: 5px;
+    margin-left: 10px
+}
+#wpcontent, #wpfooter{
+    margin-left: 180px
+}
+div.wp-menu-image:before{
+    font-size: 15px
+}
+#adminmenu li.menu-top{
+    min-height: 30px
+}
+#adminmenu div.wp-menu-name {
+}
+#adminmenu li.menu-top {
+    border: none;
+    min-height: 30px;
+    position: relative;
+    clear: both;
+}
+#adminmenu .wp-submenu{
+    left: 180px
+}
+#wpadminbar{
+    background: #293949;
+}
+#adminmenu a{
+    color: #8f939e;
+}
+#adminmenu .wp-has-current-submenu ul>li>a, .folded #adminmenu li.menu-top .wp-submenu>li>a {
+    padding: 6px 30px;
+}
+
+#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu .wp-menu-arrow, #adminmenu .wp-menu-arrow div, #adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, .folded #adminmenu li.current.menu-top, .folded #adminmenu li.wp-has-current-submenu{
+    color: #fff;
+    border-left: solid 4px #1abc9c;
+    background-color: #293949;
+}
+#adminmenu li.menu-top a:hover, #adminmenu li.opensub>a.menu-top, #adminmenu li>a.menu-top:focus{
+    color: #fff;
+    border-left: solid 4px #1abc9c;
+    background-color: #293949;
+}
+#adminmenu a{
+        border-left: solid 4px #293949;
+}
+#adminmenu li.menu-top:hover, #adminmenu li.opensub>a.menu-top, #adminmenu li>a.menu-top:focus{
+    background: 0 !important
+}
+#adminmenu li a:focus div.wp-menu-image:before, #adminmenu li.opensub div.wp-menu-image:before, #adminmenu li:hover div.wp-menu-image:before{
+    color: #fff
+}
+#adminmenu .wp-has-current-submenu .wp-submenu, #adminmenu .wp-has-current-submenu .wp-submenu.sub-open, #adminmenu .wp-has-current-submenu.opensub .wp-submenu, #adminmenu a.wp-has-current-submenu:focus+.wp-submenu, .no-js li.wp-has-current-submenu:hover .wp-submenu{
+    background: #2e4051;
+}
+#wpadminbar .ab-empty-item, #wpadminbar a.ab-item, #wpadminbar>#wp-toolbar span.ab-label, #wpadminbar>#wp-toolbar span.noticon{
+    color: #fff
+}
+#wpadminbar #adminbarsearch:before, #wpadminbar .ab-icon:before, #wpadminbar .ab-item:before{
+    color: #fff
+}
+#wpadminbar .ab-top-menu>li.hover>.ab-item, #wpadminbar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus, #wpadminbar:not(.mobile) .ab-top-menu>li:hover>.ab-item, #wpadminbar:not(.mobile) .ab-top-menu>li>.ab-item:focus{
+    background: #293949;
+    color: #fff;
+}
+#wpadminbar .menupop .ab-sub-wrapper, #wpadminbar .shortlink-input{
+    background: #293949;
+    color: #fff;    
+}

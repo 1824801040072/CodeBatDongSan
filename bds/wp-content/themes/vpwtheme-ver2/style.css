@@ -1,0 +1,28 @@
+/*
+Theme Name: cuongluong2711.com
+Theme URI: http://cuongluong2711.com
+Author: https://www.facebook.com/
+Author URI: http://cuongluong2711.com
+Description: Description
+Version: 1.0.0
+Text Domain: http://cuongluong2711.com
+Email : Lovewinter125@gmail.com
+Tags:cuongluong2711.com
+
+--------------------------------------------------------------*/
+/* LayerSlider Full Width Skin */
+
+.item-current>*{
+    line-height: 32px;
+    padding-left: 40px
+}
+.bottom-news ul li p,.news-post-items ul li p{
+	height: 37px;
+	overflow: hidden;
+}
+.footer_first{
+	text-align: center;
+}
+.footer_first p{
+	margin-bottom: 10px
+}
